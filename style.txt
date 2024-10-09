@@ -1,0 +1,115 @@
+
+/*
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(polygon-scatter-haikei.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+h4 {
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.content-container {
+    height: 80vh;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 1px solid #297EA6;
+    outline: none;
+}
+
+.d-flex {
+    display: flex;
+    gap: 0.5rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    color: white;
+    background-color: #297EA6;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #245a7f;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+}
+
+.socials {
+    height: 20px;
+}
+
+::placeholder {
+    font-size: 0.9em;
+}
+
+*/

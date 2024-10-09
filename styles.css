@@ -1,0 +1,43 @@
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url(polygon-scatter-haikei.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.content-container {
+    box-sizing: border-box;
+    height: 80vh;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 350px;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.wrapper {
+    border: 1px solid white;
+}
+
+.socials {
+    height: 20px;
+}
+
+.login {
+    background-color: #297EA6;
+}
+
+::placeholder {
+    font-size: 0.9em;
+}

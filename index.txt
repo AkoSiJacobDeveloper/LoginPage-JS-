@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h4>Jacob.</h4>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="content-container">
+                <h5 class="text-white fw-bold">Welcome Back!</h5>
+                <img src="guy.svg" alt="Guy Looking in the Laptop">
+            </div>
+            <div class="content-container">
+                <h5 class="text-white text-center mb-3">Login</h5>
+                <form onsubmit="return handleLogin(event)">
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-user text-white"></i>
+                        </div>
+                        <input type="text" id="username" placeholder="Username" required>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-lock text-white"></i>
+                        </div>
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-1">
+                            <input type="checkbox">
+                            <p class="text-white m-0">Remember Me!</p>
+                        </div>
+                        <a href="#">
+                            <p class="text-white m-0">Forget Password</p>
+                        </a>
+                    </div>
+                    <p class="text-center text-white py-3 m-0">Or</p>
+                    <div class="wrapper">
+                        <img src="google.png" class="socials" alt="Google">
+                        <p class="text-white m-0 fw-bold">Google</p>
+                    </div>
+                    <div class="wrapper">
+                        <img src="facebook.png" class="socials" alt="Facebook">
+                        <p class="text-white m-0 fw-bold">Facebook</p>
+                    </div>
+                    <button type="submit" id="login">Login</button>
+                </form>
+            </div>
+            <div class="content-container">
+                <h5 class="text-white text-center mb-3">Sign Up</h5>
+                <form>
+                    <input type="text" id="fname" placeholder="First Name">
+                    <input type="text" id="lname" placeholder="Last Name">
+                    <input type="email" id="email" placeholder="example@gmail.com">
+                    <input type="password" id="password" placeholder="Password">
+                    <input type="password" id="conpassword" placeholder="Confirm Password">
+                    <button type="submit" id="login">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="Script.js"></script>
+</html>
