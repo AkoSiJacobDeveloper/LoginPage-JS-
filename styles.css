@@ -36,8 +36,18 @@ p {
 
 .login {
     background-color: #297EA6;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.login:hover {
+    background-color: #1F688A;
 }
 
 ::placeholder {
     font-size: 0.9em;
+}
+
+.logoutButton {
+    border: none;
+    border-radius: 5px;
 }
